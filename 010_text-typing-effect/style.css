@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  background-color: #111;
+  color: #FFF;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blinking-cursor {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
